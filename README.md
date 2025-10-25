@@ -64,21 +64,20 @@ npm install
 
 ```
 
-## Backend Folder Structure
-backend/
-│
-├── config/      
-├── controllers/  
-├── middleware/   
-├── models/        
-├── routes/      
-├── .env        
-├── package.json
-└── server.js    
+## 📁 Folder Structure
 
-## Frontend Folder Structure
+```plain text
+backend/
+├── config/
+├── controllers/
+├── middleware/
+├── models/
+├── routes/
+├── .env
+├── package.json
+└── server.js
+
 frontend/
-│
 ├── public/
 │   ├── favicon.ico
 │   ├── index.html
@@ -87,15 +86,15 @@ frontend/
 │   ├── manifest.json
 │   └── robots.txt
 ├── src/
-│   ├── App.css
 │   ├── App.js
+│   ├── App.css
 │   ├── App.test.js
-│   ├── index.css
 │   ├── index.js
+│   ├── index.css
 │   ├── logo.svg
 │   ├── reportWebVitals.js
 │   ├── setupTests.js
 │   └── style.css
-├── README.md
-├── package-lock.json
-└── package.json
+├── package.json
+└── README.md
+
